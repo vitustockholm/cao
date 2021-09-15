@@ -1,9 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import About from './pages/Aboutus';
+import Contact from './pages/Contacts';
+import Helper from './Helper';
 
 function Task1() {
   return (
     <div>
       <h3>Task 1</h3>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Helper} />
+          <Route path='/Aboutus' component={About} />
+          <Route path='/Contacts' component={Contact} />
+        </Switch>
+      </Router>
     </div>
   );
 }

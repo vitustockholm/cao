@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  width: 100px;
+  height: 75px;
+  margin: 1rem;
+  background-color: blue;
+}
+
+.active {
+  border: 1px solid blue;
+  background-color: cornsilk;
+}
+
+.stylasA1 {
+  font-family: sans-serif;
+}
+
+.stylasA2 {
+  font-family: monospace;
+}

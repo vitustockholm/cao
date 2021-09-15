@@ -8,11 +8,14 @@ import Task4 from './exam-tasks/task-4/Task4';
 import Task5 from './exam-tasks/task-5/Task5';
 import Task6 from './exam-tasks/task-6/Task6';
 import Task7 from './exam-tasks/task-7/Task7';
+//
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className='App'>
       <Task1 />
+
       <hr />
 
       <Task2 />

@@ -1,14 +1,37 @@
 import React from 'react';
+//blogai uzduoti isiskaiciau
+import Button from './Button';
+
+//2v
+// toki reikejo pasidaryt is karto
+// const Button = ({text, className, action}) => {
+//   return (
+//     <button className={className} onClick={action}>{text}</button>
+//   )
+// }
+////////////////////////////
+// import React from 'react';
+
+// const FuncButton = ({ text }) => {
+//   return <button>{text} Funcbutton</button>;
+// };
+
+// export default FuncButton;
+//
 
 function Task5() {
   return (
     <div>
       <h3>Task 5</h3>
+      <p>P tag</p>
+
+      <Button />
     </div>
   );
 }
 
 export default Task5;
+
 
 /* Task 5
 Task 7 komponento viduje sukurkite h1 ir p žymas su tekstu ir du mygtukus.

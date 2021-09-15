@@ -1,9 +1,12 @@
 import React from 'react';
+import Buttons from './Buttons';
 
 function Task2() {
   return (
     <div>
       <h3>Task 2</h3>
+      <h6>Initial value begins from 0..</h6>
+      <Buttons />
     </div>
   );
 }
@@ -20,4 +23,6 @@ ant kito. Tokiu atveju nuo prieš tai paspausto balsas "nuimamas"
 ir perduodamas kitam.
 
 Pastaba: būtina panaudoti useReducer
+
+
 */

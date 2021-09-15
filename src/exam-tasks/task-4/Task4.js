@@ -1,9 +1,14 @@
 import React from 'react';
+import Users from './UserPage';
+//added loading status stage
 
 function Task4() {
   return (
     <div>
       <h3>Task 4</h3>
+      <h5>Users: sliced 3 x + all task4 info</h5>
+
+      <Users />
     </div>
   );
 }
